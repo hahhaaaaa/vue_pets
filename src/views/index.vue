@@ -19,7 +19,7 @@
           <el-menu-item index="addService">新增服务</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
-      <el-menu-item index="2">
+      <el-menu-item index="pets">
         <i class="el-icon-menu"></i>
         <span slot="title">导航二</span>
       </el-menu-item>

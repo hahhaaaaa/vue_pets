@@ -26,7 +26,7 @@ export default new Router({
         path: '/service',
         name: 'service',
         component: () => import('./components/service/service.vue'),
-      }]
+      },{ path:'/pets',  component: () => import('./views/pets.vue'),}]
       
     },
    

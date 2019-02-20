@@ -1,4 +1,4 @@
-import request from '../../utils/request';
+import request from '../utils/request';
 
 export function getSerByPageAsync({currentPage=1,eachPage=5}={}) {
   return request(`serviceRou/getServiceBypage?currentPage=${currentPage}&eachPage=${eachPage}`)
